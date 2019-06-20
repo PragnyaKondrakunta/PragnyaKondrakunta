@@ -1,0 +1,351 @@
+h5{
+	font-weight: bolder;
+}
+.myname{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    color: white;
+    text-align: center;
+	letter-spacing: 1em;
+	font-size: 35px;
+}
+
+.sub-h{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color: white;
+	text-align: center;
+	letter-spacing: 0.5em;
+
+}
+.btn{
+	visibility: hidden;
+}
+.btn-outline-primary{ color: #32cd32; }
+.btn-outline-primary:hover{ background-color: #32cd32;
+color: white; }
+
+.carousel-inner{
+	width: 50%;
+	margin: 0% 25% 0% 25%;
+}
+
+.cv{
+	font-family: "Courier New";
+	font-size: 25px;
+	color: #32cd32;
+}
+
+.card-columns{
+  margin:4% 4% 0% 4%;
+}
+.card-title{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  	opacity: 0;
+}
+/* .card{
+	margin-left:1%;
+	margin-right:1%;
+} */
+
+.card-text{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ 	opacity: 0;
+	font-style: italic;
+	font-size: 18px;
+
+}
+.card-img-overlay:hover .card-title{
+  opacity: 1;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.2s;
+ }
+.card-img-overlay:hover .card-text{
+  opacity: 1;
+  transition-duration: 0.5s;
+ }
+.card-img-overlay:hover .btn{
+	/* position: relative; */
+  	visibility: visible;
+	position: absolute;
+	right:    5px;
+	bottom:   5px;
+
+ }
+ a:hover{
+	 color: #32cd32;
+	 text-decoration: none;
+
+ }
+ .icon{
+	 /* social_media_link */
+	 color: white;
+	 font-size: 30px;
+	 font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+ }
+ .btn-circle:hover .icon{
+	 color:#32cd32;
+ }
+ .icon2{
+	color: #32cd32;
+ }
+ .btn-circle:hover .icon2{
+	color:white;
+ }
+ .btn-circle, .btn-circle-3d{
+  border-radius: 50% !important;
+}
+
+ .btn-circle.btn-lg {
+	width: 50px;
+   	height: 50px;
+   	padding: 10px 18px;
+	margin-right:10px;
+   	font-size: 25px;
+   	line-height: 1.33;
+   	border-radius: 25px;
+
+}
+.card:hover .card-img{
+   opacity: 0.1;
+   transition-duration: 0.3s;
+  }
+
+.about{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 23px;
+	color: white;
+
+}
+
+.nauty{
+	margin-bottom: 90px;
+}
+
+.card-btn{
+	/* background:#000739; */
+	color:white;
+}
+.quote{
+	font-family: "Courier New";
+	font-size: 30px;
+	color: white;
+	}
+
+
+@media (max-width: 575.98px) { 
+	.card-columns {
+		column-count: 1;
+		column-fill: auto;
+	   }
+	.carousel-inner{
+		width: 80%;
+		margin: 0% 10% 0% 10%;
+	}
+	
+	.nauty{
+			margin-bottom:20px;
+	}
+
+	.sub-h{
+			font-size: 25px;
+			letter-spacing: 0.25em;
+
+	}
+	.myname{
+			font-size: 30px;
+			letter-spacing: 0.5em;
+	}
+	.card-btn{
+		/* display: none; */
+		visibility: visible; 
+		position: absolute;
+		right:    5px;
+		bottom:   5px;
+	}
+	
+	.card-img{
+		opacity: 0.2;
+	 }
+	.card-title{
+		opacity: 1;
+	}
+	.card-text{
+		display: none;
+	}
+	.about{
+		font-size: 20px;
+	}
+	
+	.cv{
+		font-size: 20px;
+	}
+	.btn{
+			font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+			opacity: 1;
+			color: white;
+		}
+	.quote{
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+		h5{
+			font-size: 40px;
+
+		}
+		.card-columns {
+	        column-count: 1;
+			column-fill: auto;
+		   }
+		   .card-btn{
+			/* display: none; */
+			visibility: visible; 
+			position: absolute;
+			right:    5px;
+			bottom:   5px;
+		}
+		
+
+		.card-text{
+			display: none;
+		}
+		.card-title{
+			opacity: 1;
+		}
+		.card-img{
+			opacity: 0.3;
+		 }
+			
+		.nauty{
+				margin-bottom:20px;
+		}
+
+		.sub-h{
+				font-size: 30px;
+				letter-spacing: 0.25em;
+
+		}
+		.quote{
+			font-size: 25px;
+		}
+		.myname{
+				font-size: 30px;
+				letter-spacing: 0.5em;
+		}
+		.cv{
+			font-size: 20px;
+		}
+		
+		.card-title{
+				/* opacity: 1;
+				vertical-align:middle;
+				font-weight: normal; */
+				font-size:	20px;
+		}
+		.about{
+			font-size: 20px;
+		}
+		.btn{
+				font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+				opacity: 1;
+				color: white;
+			}
+	}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+	    .card-columns {
+					column-count:2 ;
+					column-fill: auto;
+
+			/* }
+			.card-btn{
+				display: none;
+			} */
+			
+			.card-img{
+				opacity: 0.3;
+			 }
+		
+			.card-text{
+				display: none;
+			   }
+			.myname{
+				font-size: 35px;
+				letter-spacing: 1em;
+			}
+			.card-title{
+				font-size: 18px;
+				opacity: 1;
+				vertical-align:middle;
+				font-weight: normal;
+			}
+			.about{
+				font-size: 25px;
+			}
+			
+	}
+
+	@media (min-width: 992px) and (max-width: 1199.98px){
+		.card-columns {
+				column-count: 3;
+				column-fill: auto;
+		}
+		.card-img{
+			opacity: 1;
+		 }
+	
+
+		.card-btn{
+			display: inherit;
+		}
+	
+		.card-text{
+		 	display: inherit;
+		 	font-size: 12px;
+		}
+
+		.card-title{
+			opacity: 0;
+		 }
+ 
+		.myname{
+			font-size: 35px;
+			letter-spacing: 1em;
+		}
+		.about{
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+		
+}
+
+@media (min-width: 1200px) {
+		.card-columns {
+				column-count: 3;
+				column-fill: auto;
+		}
+		.card-img{
+			opacity: 1;
+		 }
+	
+
+		.card-btn{
+			display: inherit;
+		}
+	
+		.card-text{
+		 display: inherit;
+		 font-size: 16px;
+		}
+
+		.card-title{
+			opacity: 0;
+		 }
+ 
+		.myname{
+			font-size: 45px;
+			letter-spacing: 1em;
+		}
+		
+}
